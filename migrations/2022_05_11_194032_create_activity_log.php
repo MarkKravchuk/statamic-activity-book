@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Schema;
  *  depending on the local database system configuration
  * 
  */
-class ActivityLogs extends Migration
+class CreateActivityLogsTable extends Migration
 {
     /**
      * Run the migrations.

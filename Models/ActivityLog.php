@@ -1,6 +1,6 @@
 <?php
 
-namespace Fixico\ActivityBook\Models;
+namespace MarkKravchuk\StatamicActivityBook\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

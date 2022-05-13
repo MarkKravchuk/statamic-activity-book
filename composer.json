@@ -3,7 +3,7 @@
     "description": "Statamic addon that saves the activity changes on the website content to Eloquent Driver",
     "autoload": {
         "psr-4": {
-            "Fixico\\ActivityBook\\": "src"
+            "markkravchuk\\statamic-activity-book\\": "src"
         }
     },
     "require": {
@@ -13,11 +13,11 @@
     "extra": {
         "statamic": {
             "name": "Activity Book",
-            "description": "Activity Book addon"
+            "description": "Statamic addon that saves the activity changes on the website content to Eloquent Driver"
         },
         "laravel": {
             "providers": [
-                "Fixico\\ActivityBook\\ServiceProvider"
+                "markkravchuk\\statamic-activity-book\\ServiceProvider"
             ]
         }
     }

@@ -1,8 +1,8 @@
 <?php
 
-namespace Fixico\ActivityBook\Listeners;
+namespace MarkKravchuk\StatamicActivityBook\Listeners;
 
-use Fixico\ActivityBook\Models\ActivityLog;
+use MarkKravchuk\StatamicActivityBook\ActivityLog;
 
 use Statamic\Events\AssetContainerDeleted;
 use Statamic\Events\AssetContainerSaved;

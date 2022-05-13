@@ -1,10 +1,10 @@
 <?php
 
-namespace Fixico\ActivityBook;
+namespace MarkKravchuk\StatamicActivityBook;
 
 use Illuminate\Http\Request;
 use Statamic\Http\Controllers\Controller;
-use Fixico\ActivityBook\Models\ActivityLog;
+use MarkKravchuk\StatamicActivityBook\Models\ActivityLog;
 
 class ActivityBookViewController extends Controller
 {
