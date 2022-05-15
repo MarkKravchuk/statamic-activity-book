@@ -5,8 +5,8 @@ namespace MarkKravchuk\StatamicActivityBook;
 use Statamic\Providers\AddonServiceProvider;
 use Statamic\Facades\Utility;
 use Illuminate\Routing\Router;
-use Fixico\ActivityBook\Listeners\ActivityBookEventSubscriber;
-use Fixico\ActivityBook\ActivityBookViewController;
+use MarkKravchuk\StatamicActivityBook\Listeners\ActivityBookEventSubscriber;
+use MarkKravchuk\StatamicActivityBook\ActivityBookViewController;
 
 class ServiceProvider extends AddonServiceProvider
 {

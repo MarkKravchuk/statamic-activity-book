@@ -2,7 +2,7 @@
 
 namespace MarkKravchuk\StatamicActivityBook\Listeners;
 
-use MarkKravchuk\StatamicActivityBook\ActivityLog;
+use MarkKravchuk\StatamicActivityBook\Models\ActivityLog;
 
 use Statamic\Events\AssetContainerDeleted;
 use Statamic\Events\AssetContainerSaved;
