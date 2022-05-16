@@ -21,6 +21,8 @@ You can search for this addon in the `Tools > Addons` section of the Statamic co
 composer require markkravchuk/statamic-activity-book
 ```
 
+Add ```ACTIVITY_BOOK_ENABLED=true``` in your ```.env``` file.
+
 ## How to Use
 
 After the Addon is installed, please run 
