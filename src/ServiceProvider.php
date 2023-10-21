@@ -40,14 +40,15 @@ class ServiceProvider extends AddonServiceProvider
         }
         
         // Create UI page for addon, under Utilities tab
-        Utility::make('activity-book')
-            ->title(__('ActivityBook'))
-            ->icon('book-pages')
-            ->description(__('View all activities made to the content of the website'))
-            ->routes(function (Router $router) {
-                // Only 1 page to be displayed
-                $router->get('/', [ActivityBookViewController::class, 'show'])->name('show');
-            })
-            ->register();
+        Utility::extend(function () {
+            Utility::register('activity-book')
+                ->title(__('ActivityBook'))
+                ->icon('book-pages')
+                ->description(__('View all activities made to the content of the website'))
+                ->routes(function (Router $router) {
+                    // Only 1 page to be displayed
+                    $router->get('/', [ActivityBookViewController::class, 'show'])->name('show');
+                });
+        });
     }
 }
